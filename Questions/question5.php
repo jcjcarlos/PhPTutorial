@@ -1,22 +1,15 @@
 <?php
 
-function getNumberForString($number)
-{
-	if (is_numeric($number))
-	{
-		return intval($number);
-	}
-	else return NULL;
-}
+include('getNumberOfString.php');
 
 
 $value1 = readline('Insira o numero 1: ');
 $value2 = readline('Insira o numero 2: ');
 $value3 = readline('Insira o numero 3: ');
 
-$num1 = getNumberForString($value1);
-$num2 = getNumberForString($value2);
-$num3 = getNumberForString($value3);
+$num1 = getNumberOfString($value1);
+$num2 = getNumberOfString($value2);
+$num3 = getNumberOfString($value3);
 
 if ($num1 === NULL || $num2 === NULL || $num3 === NULL)
 {
