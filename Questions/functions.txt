@@ -1,0 +1,5 @@
+Function getNumberOfString
+Question: 5,8.
+
+Function randomNumbersForArray
+Question: 10.
